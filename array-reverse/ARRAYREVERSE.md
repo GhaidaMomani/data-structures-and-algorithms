@@ -13,8 +13,8 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 <br/>
 
 
-## Task Description
-**Feature Tasks**
+<!-- Description of the challenge -->
+# Reverse an Array
  Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
 
 
@@ -22,8 +22,8 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 <br/>
 
 
-## Whiteboard Workflow
-
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
 ![reverse array](../assets/reverse_array.jpg)
 
 
@@ -33,10 +33,15 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 
 
 
+## Approach & Efficiency
+<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
 
 
+
+
+<hr/>
   <br/><br/>
 
 <p align="right">Ghaida Al Momani, Software Engineer</p>
 <p align="right">Jordan, Amman</p>
-  <p align="right">22, 28 Feb </p>
+  <p align="right">22, 1 MAR </p>
