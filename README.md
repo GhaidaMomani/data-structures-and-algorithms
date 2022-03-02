@@ -59,7 +59,7 @@ Happy Coding!
  |Title | Brief      |
  |:---------: |:--------------:|
  |[Array Reverse](array-reverse/ARRAYREVERSE.md)
- |[]()|
+ |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
  |[]()|
 
 
