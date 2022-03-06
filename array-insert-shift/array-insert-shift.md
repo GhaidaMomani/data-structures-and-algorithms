@@ -23,7 +23,7 @@ Insert and shift an array in middle at index
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![reverse array](../assets/array_insert_shift.png)
+![reverse array](../assets/arrayInsertShift.jpg)
 
 
  

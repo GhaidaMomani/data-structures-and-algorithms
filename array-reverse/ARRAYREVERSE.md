@@ -24,7 +24,7 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![reverse array](../assets/reverse_array.jpg)
+![reverse array](../assets/reverseArrray.jpg)
 
 
  

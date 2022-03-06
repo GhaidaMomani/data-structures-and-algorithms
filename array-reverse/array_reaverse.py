@@ -1,5 +1,5 @@
 
-list = [1, 2 ,3, 4, 5]  ## input 
+list = [1, 2 ,3, 4, 5]  
 
 def reverse_lst(arr):
   new_list = []
