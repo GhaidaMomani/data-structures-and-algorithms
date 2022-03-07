@@ -33,9 +33,9 @@ Insert and shift an array in middle at index
 
 
 ## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+**Time complexity O(n)**
+**Space complexity O(n)**
 
-**O(n)**
 
 
 ### Example:
