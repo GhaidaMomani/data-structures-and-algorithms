@@ -8,6 +8,8 @@ Linked List is a linear data structure. It is a series of connected "nodes" that
 ***Description of the challenge***
 
 Create a Node classs and LinkedList class that will have a singly linked list properties like adding element to the beginning of the linked list, check for the existence of the elemnt in the list and print all list elements as a string 
+
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 This is the complexity for time and space for each method requird in the Task
@@ -61,3 +63,9 @@ Returns: a string representing all the values in the Linked List, formatted as:
 
 
 
+
+  <br/><br/>
+
+<p align="right">Ghaida Al Momani, Software Engineer</p>
+<p align="right">Jordan, Amman</p>
+  <p align="right">22, 12 MAR </p>
