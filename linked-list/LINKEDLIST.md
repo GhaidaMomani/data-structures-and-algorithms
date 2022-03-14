@@ -1,4 +1,5 @@
 # Singly Linked List
+## Challenge 06
 <!-- Short summary or background information -->
 Linked List is a linear data structure. It is a series of connected "nodes" that contains the "address" of the next node. Each node can store a data point which may be a number, a string or any other type of data.
 
@@ -61,8 +62,10 @@ Returns: a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
 
 
+# Part Two Challenge 07 
+## Challenge Type: Extending an Implementation
 
-
+![](../assets/append.jpg)
 
   <br/><br/>
 

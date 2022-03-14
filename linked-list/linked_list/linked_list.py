@@ -70,9 +70,85 @@ class LinkedList:
                 elements += "{" + f"{current.value}" + "} -> "
                 current = current.next
             elements += "NULL"
+            # print (elements)
             return elements
     
  
+
+
+    def append(self, value):
+        """
+        method to append new node to the end of the list
+        """
+        current = self.head
+    
+        while current:
+            if current.next == None:
+                current.next = Node(value)
+                break
+            current = current.next
+
+
+
+
+
+    def insert_after(self, value, new_value):
+        """
+        method to insert new element after the given element of the list
+        """
+        if self.includes(value):
+            current = self.head
+            while current:
+                if current.value == value:
+                    node = Node(new_value)
+                    node.next = current.next
+                    current.next = node
+                    return 
+                current = current.next
+        else:
+            return 'Value is not in the list'
+
+            
+
+    def insert_before(self, value, new_value):
+        """
+        method to insert new element before the given element of the list
+        """
+
+        if self.includes(value):
+            current = self.head
+            while current:
+                 if current.next.value == value:
+                    node = Node(new_value)
+                    node.next = current.next
+                    current.next = node
+                    return
+            current = current.next  
+        else:
+            return 'Value is not in the list'
+
+# if __name__=='__main__':
+#     ll=LinkedList()
+#     ll.insert(6)
+#     ll.insert(5)
+#     ll.insert(3)
+#     ll.insert_after()
+#     ll.__str__()
+   
+
+
+
+    
+
+    
+
+   
+
+     
+        
+
+
+
 # def printLL(self):
 #         "adds the values of the nodes in the linked list to an array"
 #         current = self.head
