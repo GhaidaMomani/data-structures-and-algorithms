@@ -1,3 +1,5 @@
+https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/7
+
 # Singly Linked List
 ## Challenge 06
 <!-- Short summary or background information -->
@@ -166,4 +168,3 @@ You have access to the Node class and all the properties on the Linked List clas
 
 
 
-  PR:https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/5
