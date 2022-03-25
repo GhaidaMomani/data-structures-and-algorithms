@@ -30,7 +30,7 @@ Applications of linked list in real world:
 
 
 
-
+[last pull](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/7)
 
 
 <hr/>
