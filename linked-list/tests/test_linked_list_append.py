@@ -7,30 +7,30 @@ for el in values:
     linked_list.insert(el)
 
 
-# def test_append():
-#     assert "head -> { d } -> { 4 } -> { b } -> { a } -> { 5 } -> NULL" == linked_list.append('5')
+def test_append():
+    assert "head -> { d } -> { 4 } -> { b } -> { a } -> { 5 } -> NULL" == linked_list.append('5')
 
-# def test_append_to_empty():
-#     linked_list = LinkedList()
-#     assert "head -> { 5 } -> NULL" == linked_list.append('5')
+def test_append_to_empty():
+    linked_list = LinkedList()
+    assert "head -> { 5 } -> NULL" == linked_list.append('5')
 
-# def test_insert_before_value_in_list():
+def test_insert_before_value_in_list():
 
-#     assert "head -> { d } -> { 4 } -> { b } -> { 3 } -> { a } -> { 7 } -> { 5 } -> NULL" == linked_list.insert_before('a', 3)
+    assert "head -> { d } -> { 4 } -> { b } -> { 3 } -> { a } -> { 5 } -> NULL" == linked_list.insert_before('a', 3)
 
-# def test_insert_before_value_not_in_list():
+def test_insert_before_value_not_in_list():
 
-#     assert 'Value is not in the list' == linked_list.insert_before('e', 3)
+    assert 'Value is not in the list' == linked_list.insert_before('e', 3)
 
 
 
-# def test_insert_after_value_in_list():
+def test_insert_after_value_in_list():
 
-#     assert "head -> { d } -> { 4 } -> { b } -> { 3 } -> { a } -> { 7 } -> { 5 } -> NULL"== linked_list.insert_after('a',7 )
+    assert "head -> { d } -> { 4 } -> { b } -> { 3 } -> { a } -> { 7 } -> { 5 } -> NULL"== linked_list.insert_after('a',7 )
 
-# def test_insert_after_value_not_in_list():
+def test_insert_after_value_not_in_list():
 
-#     assert 'Value is not in the list' == linked_list.insert_after('e', 3)
+    assert 'Value is not in the list' == linked_list.insert_after('e', 3)
 
 
 

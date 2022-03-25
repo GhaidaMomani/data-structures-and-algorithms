@@ -96,3 +96,21 @@ class LinkedList:
                 current = current.next
         else:
             return 'Value is not in the list'
+
+    def __str__(self):
+        """
+        method that returns a string that represents all list elements
+         formatted as:
+           "{ a } -> { b } -> { c } -> NULL"
+        """
+        elements = "head -> "
+        if self.head is None:
+            elements += "NULL"
+        else:
+            current = self.head
+            while current:
+                elements += "{ " + f"{current.value}" + " } -> "
+                current = current.next
+            elements += "NULL"
+            print (elements)
+            return elements

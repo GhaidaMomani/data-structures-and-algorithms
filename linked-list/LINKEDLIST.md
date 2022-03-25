@@ -1,7 +1,7 @@
 #  Linked Lists
 ## Part one Challenge 06
 <!-- Short summary or background information -->
-# before we start lt's answer the question : where do we use linkes lists ?
+# before we start let's answer the question : where do we use linkes lists ?
 
 
 Applications of linked list in real world:
@@ -20,12 +20,12 @@ Applications of linked list in real world:
 
 # Table of Contents
 
- |Title | Brief      |
+ |Title | CC number     |
  |:---------: |:--------------:|
- |[Basic Linked List methods](../linked-list/basic_methods.md)
- |[linked list append and insertions](../linked-list/Append_Insertions.md)| 
- |[linked list kth element](../linked-list/kth_element.md)| 
- |[linked list zipped ](../linked-list/zipped.md)|
+ |[Basic Linked List methods](../linked-list/basic_methods.md)| 6
+ |[linked list append and insertions](../linked-list/Append_Insertions.md)| 7
+ |[linked list kth element](../linked-list/kth_element.md)| 8
+ |[linked list zipped ](../linked-list/zipped.md)|9
 
 
 
