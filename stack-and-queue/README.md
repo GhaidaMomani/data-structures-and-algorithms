@@ -29,19 +29,20 @@ They are aspecial and a well known data structure/
 
 
 ## Approach & Efficiency
+
 **Stack:**
 
-.pop(value) - space and time O(1)
-.push() - space and time O(1)
-.peek() - space and time O(1)
-.is_empty() space and time O(1)
+* pop(value) - space and time O(1)
+* push() - space and time O(1)
+* peek() - space and time O(1)
+* is_empty() space and time O(1)
 
 **Queue:**
 
-.enqueue(value) - space and time O(1)
-.dequeue() - space and time O(1)
-.peek - space and time O(1)
-.is_empty() - space and time O(1)
+* enqueue(value) - space and time O(1)
+* dequeue() - space and time O(1)
+* peek - space and time O(1)
+* is_empty() - space and time O(1)
 
 
 
