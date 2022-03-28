@@ -29,13 +29,25 @@ They are aspecial and a well known data structure/
 
 
 ## Approach & Efficiency
-Time complexity O(1)
+**Stack:**
 
-Space complexity O(1)
+.pop(value) - space and time O(1)
+.push() - space and time O(1)
+.peek() - space and time O(1)
+.is_empty() space and time O(1)
+
+**Queue:**
+
+.enqueue(value) - space and time O(1)
+.dequeue() - space and time O(1)
+.peek - space and time O(1)
+.is_empty() - space and time O(1)
 
 
 
-# Solutoin 
+
+
+# API
 [Code](../stack-and-queue/stack_and_queue/stack_and_queue.py)
 
 
