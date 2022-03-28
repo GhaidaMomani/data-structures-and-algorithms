@@ -25,7 +25,7 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 This is the implementation of the CC of Stacks and Queues on Branch Name: stack-and-queue/
 They are aspecial and a well known data structure/
 
-## [PR]()
+## [PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/9)
 
 
 
