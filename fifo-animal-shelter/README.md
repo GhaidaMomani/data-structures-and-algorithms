@@ -18,7 +18,7 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 # Stacks and Queue:FIFO Animal Shelter
 Method that will manipulate data in stacks and queues.
 
-## [PR]()
+## [PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/10)
 
 # Challenge
 Without using any builtin functionality, manipulate stack and queue data. Add a new Node Add / Remove to / from a stack Add / Remove to / from a queue Exception error handling
