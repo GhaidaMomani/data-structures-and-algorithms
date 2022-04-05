@@ -64,7 +64,7 @@ Happy Coding!
  |[Stack & Queues ](stack-and-queue/README.md)| Data Structure 2 | CC 10
  |[stack-queue-pseudo](stack-queue-pseudo/README.md)| Data Structure | CC 11 ..
  |[fifo-animal-shelter](fifo-animal-shelter/README.md)| Data Structure | CC 12 ..
-
+|[stack-queue-brackets](stack-queue-brackets/README.md)| 
 <hr/>
     <p align="right">(<a href="#top">back to top</a>)</p>
 
