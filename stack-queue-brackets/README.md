@@ -27,7 +27,7 @@ Round Brackets: ()
 Square Brackets: []
 Curly Brackets: {}
 
-## [PR]()
+## [PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/11)
 
 
 
@@ -44,7 +44,7 @@ The next loop does the same work but for the closing brackets which make the fun
 
 ## Whiteboard 
 
-![]()
+![](../assets/brackets.jpg)
 
 
 

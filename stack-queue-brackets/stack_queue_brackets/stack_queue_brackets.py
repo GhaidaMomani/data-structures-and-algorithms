@@ -1,6 +1,7 @@
 
 def validate_brackets(string):
-    """Takes in a string argument and returns a boolean representing whether or not the brackets within the string are balanced.
+    """
+    This method takes a string arguments to check if the brackets are balanced in pairs.
     """
     brackets = []
     open_brackets = []
