@@ -34,7 +34,8 @@ Multi Bracket Validation
 * dequeue(pref) method time big O(n), space big O(n)
 
 
-
+# Whiteboard
+![](../../assets/animal%20shelter.jpg)
 
 
 
@@ -47,7 +48,28 @@ Multi Bracket Validation
 
 # Solution
 
+```python
+  def dequeue(self, pref):
+        """
+        Method to take only preferable type of animal from the shelter using the  FIFO approach
+        """
+        adopted_animal = None
 
+        while not self.queue1.is_empty():
+            if self.queue1.front.type == pref.lower() and adopted_animal == None:
+                adopted_animal= self.queue1.dequeue()
+            else:
+                self.queue2.enqueue(self.queue1.dequeue())
+
+        while not self.queue2.is_empty():
+            self.queue1.enqueue(self.queue2.dequeue())
+
+        return adopted_animal
+
+
+
+
+```
 
 
 
