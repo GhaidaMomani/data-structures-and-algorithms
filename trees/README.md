@@ -69,7 +69,7 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 # Code Challenge :Find the Maximum Value in a Binary Tree
 --------
 
-
+[PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/14)
 
 
 ## Find Maximum Value
@@ -102,7 +102,8 @@ stored in the Binary Tree will be numeric.
 ---
 
 
-### Whiteboard Visual
+# Whiteboard Visual
+
 ![WhiteBoard](../assets/tree_max_val.jpg)
 
 
@@ -136,6 +137,6 @@ Output:
 
 <p align="right">Ghaida Al Momani, Software Engineer</p>
 <p align="right">Jordan, Amman</p>
-<p align="right">22, 10 April> </p>
+<p align="right">22, 10 April</p>
 
 
