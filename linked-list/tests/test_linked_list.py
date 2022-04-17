@@ -64,9 +64,23 @@ def test__str__method():
 
     """
     linkesl1=LinkedList()
-    linkesl1.insert(" c ")
-    linkesl1.insert(" b ")
-    linkesl1.insert(" a ")
+    linkesl1.insert("c")
+    linkesl1.insert("b")
+    linkesl1.insert("a")
     actual = linkesl1.__str__()
     expected="head -> { a } -> { b } -> { c } -> NULL"
     assert actual==expected
+
+
+
+
+def test_LinkedList_append(linklist):
+    linkesl1=LinkedList()
+    linkesl1.insert(" c ")
+    linkesl1.insert(" b ")
+    linkesl1.insert(" a ")
+    
+    linkesl1.append("d")
+    actual = str(linklist)
+    expected = "head -> { a } -> { b } -> { c } -> { d } -> NULL"
+    assert actual == expected
