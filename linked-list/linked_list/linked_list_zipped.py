@@ -49,6 +49,7 @@ class LinkedList:
         ll2_current = ll2.head
 
         """
+        Optimal solution 
             - loop thorugh ll2
             - if the ll1 current is empty and the ll2 current is not empty:
                 - append ll2 to ll1

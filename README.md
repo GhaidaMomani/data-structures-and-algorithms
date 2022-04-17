@@ -61,9 +61,13 @@ Happy Coding!
  |[Array Reverse](array-reverse/ARRAYREVERSE.md)
  |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
 
+ |[linked lists ](linked-list/LINKEDLIST.md)|
+ |[Stack & Queues ](stack-and-queue/README.md)|
+
  |[Array Binary Search](array-binary-search/array-binary-search.py)|
 
  |[Singly linked list ](linked-list/LINKEDLIST.md)|
+
 
 
 
