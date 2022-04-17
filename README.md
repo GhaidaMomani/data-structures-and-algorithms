@@ -61,8 +61,15 @@ Happy Coding!
  |[Array Reverse](array-reverse/ARRAYREVERSE.md)
  |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
 
+ |[linked lists ](linked-list/LINKEDLIST.md)| Data Structure 1  | CC 9,8,7,6
+ |[Stack & Queues ](stack-and-queue/README.md)| Data Structure 2 | CC 10
+ |[stack-queue-pseudo](stack-queue-pseudo/README.md)| Data Structure | CC 11 ..
+
+
+
  |[linked lists ](linked-list/LINKEDLIST.md)|
  |[Stack & Queues ](stack-and-queue/README.md)|
+
 
  |[Array Binary Search](array-binary-search/array-binary-search.py)|
 
