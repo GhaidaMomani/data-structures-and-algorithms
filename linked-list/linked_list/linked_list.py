@@ -129,14 +129,46 @@ class LinkedList:
             return 'Value is not in the list'
 
 
+
+    def kth_from_end(self, k):
+            """
+            Return the node's value that is k places from the tail of the linked list.
+            """
+            temp = self.head
+            length = 0
+            if type(k)!= type(5) or k<0:
+                print("the index should be a positive integer value")
+                return "the index should be a positive integer value"
+            while temp.next is not None:
+                temp = temp.next
+                length += 1
+            if k > length:
+                """
+                if the entered number is bigger than the length of the linked list
+                """
+                print('Location is greater than the length of LinkedList')
+                return 'Location is greater than the length of LinkedList'
+            temp = self.head
+            for i in range(0, length - k):
+                temp = temp.next
+            print(temp.value)
+            return temp.value
+
+
+
+
+
+
 if __name__=='__main__':
         ll=LinkedList()
         ll.insert('a')
         ll.insert('b')
         ll.insert(4)
         ll.insert('d')
-        ll.append('z')
+        
         ll.__str__()
+
+        ll.kth_from_end(2)
 
     
 

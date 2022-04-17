@@ -1,7 +1,18 @@
 # Singly Linked List
 ## Challenge 06
 <!-- Short summary or background information -->
-Linked List is a linear data structure. It is a series of connected "nodes" that contains the "address" of the next node. Each node can store a data point which may be a number, a string or any other type of data.
+# before we start lt's answer the question : where do we use linkes lists ?
+
+
+Applications of linked list in real world:
+
+* Image viewer – Previous and next images are linked, hence can be accessed by next and previous button.
+
+* Previous and next page in web browser – We can access previous and next url searched in web browser by pressing back and next button since, they are linked as linked list.
+
+* Music Player – Songs in music player are linked to previous and next song. you can play songs either from starting or ending of the list.
+
+**Linked List** is a linear data structure. It is a series of connected "nodes" that contains the "address" of the next node. Each node can store a data point which may be a number, a string or any other type of data.
 
 
 ***A singly linked list*** is a type of linked list that is unidirectional, that is, it can be traversed in only one direction from head to the last node (tail).
@@ -62,13 +73,69 @@ Returns: a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
 
 
-# Part Two Challenge 07 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Part Two of the Challenge 
 ## Challenge Type: Extending an Implementation
+
+
+***append***
+
+This function takes the argument new value
+It adds a new node with the given value to the end of the list
 
 ![](../assets/append.jpg)
 
+***insert before***
+
+This function takes the arguments value, new value
+It adds a new node with the given new value immediately before the first node that has the value specified
+
+![](../assets/insert_before.jpg)
+
+***insert after***
+
+This function takes the arguments value, new value
+It adds a new node with the given new value immediately after the first node that has the value specified
+
+![](../assets/insert_after.jpg)
+
+
+
+
+
+
+
+ <p align="right">(<a href="#top">back to top</a>)</p>
+
+# Part Three of the Challenge  
+## Challenge Type: Kth element
+
+
+***kth from end***
+
+This function takes the argument  k. 
+It Return the node’s value that is k places from the tail of the linked list.
+
+![](../assets/Kth_element.jpg)
+
+
+
+
+
+
+
+
+
+<hr/>
+    <p align="right">(<a href="#top">back to top</a>)</p>
   <br/><br/>
 
 <p align="right">Ghaida Al Momani, Software Engineer</p>
 <p align="right">Jordan, Amman</p>
   <p align="right">22, 12 MAR </p>
+
+
+
+
+  PR:https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/5
