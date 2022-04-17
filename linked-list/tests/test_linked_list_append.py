@@ -1,5 +1,5 @@
 import pytest
-from linked_list.linked_list import LinkedList, Node
+from linked_list.linked_list_append import LinkedList, Node
 
 linked_list = LinkedList()
 values = ['a', 'b', 4, 'd']
@@ -31,16 +31,6 @@ def test_insert_after_value_in_list():
 def test_insert_after_value_not_in_list():
 
     assert 'Value is not in the list' == linked_list.insert_after('e', 3)
-
-
-
-
-
-
-
-
-
-
 
 
 
