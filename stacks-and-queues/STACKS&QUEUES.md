@@ -58,19 +58,12 @@ Happy Coding!
 
  |Title | Brief      |
  |:---------: |:--------------:|
- |[Array Reverse](array-reverse/ARRAYREVERSE.md)
- |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
-
- |[linked lists ](linked-list/LINKEDLIST.md)| Data Structure 1  | CC 9,8,7,6
-
- |[Stack & Queues ](stacks-and-queues/STACKS%26QUEUES.md)| Data Structure 2 | CC 10
-
- |[Stack & Queues ](stack-and-queue/README.md)| Data Structure 2 | CC 10
- |[stack-queue-pseudo](stack-queue-pseudo/README.md)| Data Structure | CC 11 ..
-
-
+ |[Stacks & Queues General ](stack-and-queue/README.md)| Data Structure 2 | CC 10
+ |[Stack Queue Pseudo](stack-queue-pseudo/README.md)| Data Structure | CC 11 ..
+ |[Fifo Animal Shelter](fifo-animal-shelter/README.md)| Data Structure | CC 12 ..
+|[Stack Queue Brackets](stack-queue-brackets/README.md)| 
 <hr/>
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
    
 
