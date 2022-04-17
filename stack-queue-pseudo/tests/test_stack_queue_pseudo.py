@@ -33,6 +33,15 @@ def test_dequeue(my_stack):
     assert pseudo_q.dequeue() == 'a'
 
 
+# def test_pesudo_dequeue():
+#     pseudo = PseudoQueue()
+#     pseudo.front = Node(1)
+#     pseudo.front.next = Node(2)
+#     pseudo.front.next.next = Node(3)
+#     pseudo.dequeue() 
+#     assert pseudo.peek() == 2
+
+
 # def test_enqueue_dequeue(my_stack):
 #     pseudo_q = PseudoQueue(my_stack)
 #     assert pseudo_q.stk1.peek() == 10

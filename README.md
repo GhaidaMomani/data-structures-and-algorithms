@@ -65,19 +65,6 @@ Happy Coding!
  |[Stack & Queues ](stack-and-queue/README.md)| Data Structure 2 | CC 10
  |[stack-queue-pseudo](stack-queue-pseudo/README.md)| Data Structure | CC 11 ..
 
-
-
- |[linked lists ](linked-list/LINKEDLIST.md)|
- |[Stack & Queues ](stack-and-queue/README.md)|
-
-
- |[Array Binary Search](array-binary-search/array-binary-search.py)|
-
- |[Singly linked list ](linked-list/LINKEDLIST.md)|
-
-
-
-
 <hr/>
     <p align="right">(<a href="#top">back to top</a>)</p>
 
