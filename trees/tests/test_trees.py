@@ -104,6 +104,32 @@ def test_find_max_value_on_empty_tree():
         BinaryTree().BT_max_val()
 
 
+
+def test_BST_breadth():
+    bst = BinarySearchTree()
+    bst.add(5)
+    bst.add(4)
+    bst.add(7)
+    bst.add(9)
+    bst.add(2)
+    bst.add(3)
+    actual = bst.breadth_first()
+    expected = [5, 4, 7, 2, 9, 3]
+    assert actual == expected
+
+def test_BST_breadth_two():
+    bst = BinarySearchTree()
+    bst.add(7)
+    bst.add(3)
+    bst.add(9)
+    bst.add(4)
+    bst.add(2)
+    bst.add(5)
+    actual = bst.breadth_first()
+    expected = [7, 3, 9, 2, 4, 5]
+    assert actual == expected
+
+
 @pytest.fixture
 def binay_tree():
     node1 = Node(100)
