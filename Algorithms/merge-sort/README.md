@@ -6,6 +6,8 @@ Review the pseudocode below, then trace the algorithm by stepping through the pr
 
 Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
 
+![](assets/MergeSort_Avg_case.gif)
+
 **Pseudo Code**
 
 ```python
