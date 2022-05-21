@@ -67,6 +67,7 @@ Happy Coding!
  |[Trees BF ](trees/trees-max/trees_max.md)|
  |[Trees Fizz-Buzz ](trees/trees-max/trees_max.md)|
  |[Algorithms ](Algorithms/Algo_README.md)|
+ |[HashTable ](DataStructures/Hashtable/README.md)|
 
 
 <hr/>
