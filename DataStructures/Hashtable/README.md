@@ -1,5 +1,5 @@
 # Hash Table
-
+# [PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/19)
 ## Challenge 30
 Implement a HashTable with the following methods:
 1. [x] `add`: Takes in both the key and value. This method should hash they key, and add the key and value pair to the table, handling collisions as needed.
