@@ -1,12 +1,22 @@
-# Merge Sort
+# Divide and Conquer
+## Merge Sort
 
 
-Assignment
-Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
-
-Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
+Merge sort is one of the most efficient sorting algorithms. It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
 
 ![](assets/MergeSort_Avg_case.gif)
+
+**Algorithm**
+define a Merge_sort function that takes a list as an arguments
+check if the length of the list is bigger than zero
+then split the list into two almost equal parts left and right
+call the function recursively for each part left and right of the list
+now we need three counters each one is less than the length of the left and right parts
+compare the nth element of the lists
+arrange the numbers in each side after the divide 
+then merge them to the bigger list
+do a compare and then repeat the merge  till the whole list is sorted
+
 
 **Pseudo Code**
 
@@ -67,6 +77,9 @@ def Mergesort(list):
     return list
   
 ```
+# white board 
+![picture](assets/merge_sort.jpg)
+![picture](assets/merge_sort_1.jpg)
 
 
 [PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/18)
