@@ -58,15 +58,8 @@ Happy Coding!
 
  |Title | Brief      |
  |:---------: |:--------------:|
- |[Array Reverse](array-reverse/ARRAYREVERSE.md)
- |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
- |[Singly linked list ](linked-list/LINKEDLIST.md)|
- |[stacks and queues ](stacks-and-queues/re)|
- |[Trees ](trees/README.md)|
- |[Trees  max ](trees/tree-breadth-first/tree_breadth_first.md)|
- |[Trees BF ](trees/trees-max/trees_max.md)|
- |[Trees Fizz-Buzz ](trees/trees-max/trees_max.md)|
- |[Algorithms ](Algorithms/Algo_README.md)|
+ |[Insertion Sort ](insertion-sort/README.md)|
+ |[Merge Sort ](merge-sort/README.md)|
 
 
 <hr/>
