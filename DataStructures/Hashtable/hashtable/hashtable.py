@@ -7,21 +7,7 @@ class HashTable(object):
         self.size = size
         self.table = [None] * size
 
-    def hash(self,key):
-        """
-        hash(self, key): method that takes a key and returns the index of that key in the table.
-
-        """
-        if type(key) != str:
-            raise Exception("Key must be a string")
-        
-        sum_ascii_value = 0
-        for char in key:
-            char_value =  ord(char)
-            sum_ascii_value += char_value
-        sum_ascii_value = (sum_ascii_value*19) % self.size
-        return sum_ascii_value
-
+  
     def set(self,key,value):
         """
         set(self, key, value): method that takes key and value. This method hash the key, and add the key and value pair to the table, handling collisions as needed.
