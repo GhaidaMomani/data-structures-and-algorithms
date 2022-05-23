@@ -1,89 +1,96 @@
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-class LinkedList:
-    def __init__(self):
-        self.head = None
-
-    def add(self, data):
-        node = Node(data)
-
-        if not self.head:
-            self.head = node
-        else:
-            current = self.head
-            while current.next:
-                current = current.next
-            current.next = node
-
-    def display(self):
-        collection = []
-        current = self.head
-        while current:
-            collection.append(current.data[0])
-            current = current.next
-        return collection
-
-class HashTable:
+class HashTable(object):
     """
-    This class is used to implement a hashmap
-    It has four available methods: Add, Get, Contains, Hash
+    HashTable: Class to create an instance of a HashTable data structure.
+
     """
-    def __init__(self, size):
+    def __init__(self,size = 1024):
         self.size = size
-        self.map = [None] * self.size
+        self.table = [None] * size
 
-    def add(self, key, value):
-        """Add is reponsible for adding data to the hashmap datas structure
+    def hash(self,key):
         """
-        hashed_key = self.hash(key)
+        hash(self, key): method that takes a key and returns the index of that key in the table.
 
-        if not self.map[hashed_key]:
-            self.map[hashed_key] = LinkedList()
-
-        self.map[hashed_key].add([key, value])
-
-    def get(self, key):
-        """Get is responsible for taking in a key argument and returning the value for that key in the hashmap
         """
-        index = self.hash(key)
-
-        if self.map[index]:
-            ll = self.map[index]
-
-            while ll.head:
-                if ll.head.data[0] == key:
-                    return ll.head.data[1]
-                else:
-                    ll.head = ll.head.next
-        else:
-            return None
-
-    def contains(self, key):
-        """Contains is reponsible for returning a bool for wether or not the provided key is within the data structure
-        """
-        index = self.hash(key)
-
-        if self.map[index]:
-            collection = self.map[index].display()
-            if key in collection:
-                return True
-            else:
-                pass
-        return False
-
-    def hash(self, key):
-        """
-        Hash is responsible for splitting they key, converting to ascii values, adding them together, multiply it by any prime number, then modulous by the size of the hashmap to return a valid index value within the hashmap to store that key.
-        """
-        total = 0
+        if type(key) != str:
+            raise Exception("Key must be a string")
+        
+        sum_ascii_value = 0
         for char in key:
-            total += ord(char)
+            char_value =  ord(char)
+            sum_ascii_value += char_value
+        sum_ascii_value = (sum_ascii_value*19) % self.size
+        return sum_ascii_value
 
-        total *= 19
+    def set(self,key,value):
+        """
+        set(self, key, value): method that takes key and value. This method hash the key, and add the key and value pair to the table, handling collisions as needed.
 
-        hashed_key = total % self.size
+        """
+            
+        index = self.hash(key)
+        
+        if self.table[index]:
+            if key in self.keys():
+                for dic in self.table[index]:
+                    if key in dic.keys():
+                        dic[key] = value
+            else:
+                self.table[index].append({f"{key}":f"{value}"})
+        else:
+            self.table[index] = [{f"{key}":f"{value}"}]        
+                            
+    def get(self,key):
+        """
+        get(self, key): method that takes in the key and returns its value from the table.
 
-        return hashed_key
+        """
+        if type(key) is not str:
+            raise Exception("Key must be a string")
+        
+        index = self.hash(key)
+        
+        if not self.table[index]:
+            return None
+        
+        for dic in self.table[index]:
+            if key in dic.keys():
+                return dic[key]
+   
+    def contains(self,key):
+        """
+        contains(self, key): method that takes in the key and returns a boolean, indicating if the key exists in the table already.
+        """
+        if type(key) != str:
+            raise Exception("Key must be a string")
+        
+        index = self.hash(key)
+        
+        if not self.table[index]:
+            return False
+        
+        for dic in self.table[index]:
+            if key in dic.keys():
+                return True
+            return False
+     
+    def keys(self):
+        """
+        keys(self): a method that returns the collection of keys.
+        """
+        keys = []
+        for index in self.table :
+            if index:
+                for dic in index:
+                        [keys.append(key) for key in dic.keys()]
+                        
+        return keys
+
+
+# if __name__ == "__main__":
+#     hashtable = HashaTable()
+#     hashtable.add("cloud", "AWS")
+#     hashtable.add("cloud", "Azure")
+#     hashtable.add("could", "Rainy")
+#     hashtable.add("name", "Python")
+#     print(hashtable["name"])
