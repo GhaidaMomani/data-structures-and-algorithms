@@ -68,7 +68,7 @@ Happy Coding!
  |[Trees Fizz-Buzz ](trees/trees-max/trees_max.md)|
  |[Algorithms ](Algorithms/Algo_README.md)|
  |[HashTable ](DataStructures/Hashtable/README.md)|
-
+ |[HashMap](DataStructures/Hashtable/Repeated_word.md)|
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
