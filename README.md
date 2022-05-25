@@ -69,6 +69,7 @@ Happy Coding!
  |[Algorithms ](Algorithms/Algo_README.md)|
  |[HashTable ](DataStructures/Hashtable/README.md)|
  |[HashMap](DataStructures/Hashtable/Repeated_word.md)|
+ [Quick Sort ](../data-structures-and-algorithms/sorting/quick/README.md)|
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
