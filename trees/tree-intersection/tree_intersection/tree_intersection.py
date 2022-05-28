@@ -1,5 +1,5 @@
-from hashtable  import HashTable
-from binary_tree import BinaryTree,Node
+from tree_intersection.hashtable  import HashTable
+from tree_intersection.binary_tree import BinaryTree,Node
 
 
 def tree_intersection(tree1, tree2):
