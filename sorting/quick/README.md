@@ -7,7 +7,9 @@ Once you are done with your article, code a working, tested implementation of Qu
 ## Whiteboard Process
 
 ![](../quick/assets/Lomuto_animated.gif) 
-<!-- Embedded whiteboard image -->
+
+
+![](/assets/quicksort.jpg)
 
 
 
