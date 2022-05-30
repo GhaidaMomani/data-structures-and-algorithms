@@ -70,7 +70,7 @@ Happy Coding!
  |[HashTable ](DataStructures/Hashtable/README.md)|
  |[HashMap](DataStructures/Hashtable/Repeated_word.md)|
  |[Quick Sort ](sorting/quick/README.md)|
- |[Trees Intersections](trees/tree-intersection/README.md|
+ |[Trees Intersections](trees/tree-intersection/README.md)|
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
