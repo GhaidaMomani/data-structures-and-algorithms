@@ -2,6 +2,8 @@
 
 Implement a simplified LEFT JOIN for 2 Hashmaps.
 
+[PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/24)
+
 ---
 ## Challenge 
 - [x] Write a function that LEFT JOINs two hashmaps into a single data structure.

@@ -71,6 +71,7 @@ Happy Coding!
  |[HashMap](DataStructures/Hashtable/Repeated_word.md)|
  |[Quick Sort ](sorting/quick/README.md)|
  |[Trees Intersections](trees/tree-intersection/README.md)|
+ |[Hashmap lef join](DataStructures/hashmap-left-join/README.md)|
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
