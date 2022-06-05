@@ -153,6 +153,8 @@ class BinaryTree:
 
             if front.right:
                 breadth.enqueue(front.right)
+##########################################################################
+# Code Challenge 16
 
     def BT_max_val(self):
         """
@@ -219,7 +221,7 @@ class BinarySearchTree(BinaryTree):
             self.root = node
             return
 
-        def walk(root, new_node):
+        def move(root, new_node):
 
             if not root:
                 return
@@ -230,16 +232,16 @@ class BinarySearchTree(BinaryTree):
                 if not root.left:
                     root.left = new_node
                 else:
-                    walk(root.left, new_node)
+                    move(root.left, new_node)
 
            
             else:
                 if not root.right:
                     root.right = new_node
                 else:
-                    walk(root.right, new_node)
+                    move(root.right, new_node)
 
-        walk(self.root, node)
+        move(self.root, node)
 
 
     def contains(self, value):
@@ -253,37 +255,29 @@ class BinarySearchTree(BinaryTree):
             return False
 
 
-##########################################################################
-# Code Challenge 16
+    # def BST_max_val(self):
+    #         if not self.root:
+    #             return "add some nodes to the tree :) "
+
+    #         def move(root, max_val = 0):
+    #             if not root:
+    #                 return
+    #             if root.value > max_val:
+    #                 max_val = root.value
+
+    #             left = move(root.left, max_val)
+    #             right = move(root.right, max_val)
+
+    #             if left and left > max_val:
+    #                 max_val = left
+
+    #             if right and right> max_val:
+    #                 max_val = right
 
 
+    #             return max_val
 
-
-    def BST_max_val(self):
-            if not self.root:
-                return "add some nodes to the tree :) "
-
-            def move(root, max_val = 0):
-                if not root:
-                    return
-                if root.value > max_val:
-                    max_val = root.value
-
-                left = move(root.left, max_val)
-                right = move(root.right, max_val)
-
-                if left and left > max_val:
-                    max_val = left
-
-                if right and right> max_val:
-                    max_val = right
-
-
-                return max_val
-
-            return move(self.root)
-
-
+    #         return move(self.root)
 
 
 
