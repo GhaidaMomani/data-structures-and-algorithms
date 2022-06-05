@@ -6,10 +6,15 @@ Once you are done with your article, code a working, tested implementation of Qu
 
 ## Whiteboard Process
 
+<<<<<<< HEAD
 ![](../quick/assets/Lomuto_animated.gif) 
 
 
 ![](/assets/quicksort.jpg)
+=======
+
+![](../quick/assets/quicksort.jpg)
+>>>>>>> main
 
 
 
@@ -56,7 +61,8 @@ ALGORITHM Swap(arr, i, low)
 
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Space complexity Big O(logn)
+Time complexity Big O(n^2)
 
 ## Solution
 ``` py
@@ -97,6 +103,7 @@ def swap(lst, i, low):
 
 ```
 
+## [BLOG](../quick/BLOG.md)
 
 
 <hr/>
