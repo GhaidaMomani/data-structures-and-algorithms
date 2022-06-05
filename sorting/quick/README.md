@@ -6,8 +6,15 @@ Once you are done with your article, code a working, tested implementation of Qu
 
 ## Whiteboard Process
 
+<<<<<<< HEAD
+![](../quick/assets/Lomuto_animated.gif) 
+
+
+![](/assets/quicksort.jpg)
+=======
 
 ![](../quick/assets/quicksort.jpg)
+>>>>>>> main
 
 
 
