@@ -62,9 +62,81 @@ By [Ghaida Al Momani] (https://github.com/GhaidaMomani).
 
 
 
+
+
+
+--------
+# Code Challenge :Find the Maximum Value in a Binary Tree
+--------
+
+[PR](https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/14)
+
+
+## Find Maximum Value
+
+---
+
+### Problem Domain
+Write an method called FindMaximumValue. 
+Without utilizing any of the built-in methods available to your language, 
+return the maximum value stored in the tree. You can assume that the values 
+stored in the Binary Tree will be numeric.
+
+---
+
+### Inputs and Expected Outputs
+
+| Internal State | Expected Output |
+| :----------- | :----------- | 
+| [10,20,40,50,30] |  [50]
+
+
+---
+
+### Big O
+
+| Time | Space |
+| :----------- | :----------- |
+| O(n) | O(n) |
+
+---
+
+
+# Whiteboard Visual
+
+![WhiteBoard](../assets/tree_max_val.jpg)
+
+
+# Approach & Efficiency
+
+Big-O is o(n) for time because the recursive internal function, and o(1) for space because we only created one variable to hold the max value
+
+
+# Solution
+
+define an algorithm find_max() raise an exception if the tree is empty return the root value if the tree only have one node (the root) define (maximum) that holds the value of the root value define a recursive loop by a function that will traverse through the tree in each recursion, check if the current value is bigger than the current max and modify it accordingly return the maximum
+
+
+``` python
+    bt = BinarySearchTree()
+    [bt.add(i) for i in [30,100,4,5,775,889,4,3]]
+
+    print (bt.tree_max_val())
+
+```
+
+Output:
+```
+889
+```
+
+
+
 <hr/>
 <br/><br/>
 
 <p align="right">Ghaida Al Momani, Software Engineer</p>
 <p align="right">Jordan, Amman</p>
-<p align="right">22, 10 April
+<p align="right">22, 10 April</p>
+
+

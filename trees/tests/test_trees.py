@@ -74,3 +74,25 @@ def test_BST_contains_False():
     actual = bt.contains(200)
     expected = False
     assert actual == expected
+
+
+
+
+
+def test_BST_find_max():
+    bt = BinarySearchTree()
+    [bt.add(i) for i in [10,20,30,40,50]]
+
+    actual = bt.tree_max_val()
+    expected =50
+    assert actual == expected 
+    
+ 
+
+def test_BST_find_max_empty():
+    bt = BinarySearchTree()
+   # [bt.add(i) for i in [10,20,30,40,50]]
+
+    actual = bt.tree_max_val()
+    expected = "add some nodes to the tree :) "
+    assert actual == expected 

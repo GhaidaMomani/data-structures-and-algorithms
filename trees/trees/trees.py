@@ -157,18 +157,55 @@ class BinarySearchTree(BinaryTree):
             return False
 
 
+##########################################################################
+# Code Challenge 16
 
 
 
 
+    def tree_max_val(self):
+            if not self.root:
+                return "add some nodes to the tree :) "
 
-if __name__=='__main__':        
-    tree = BinarySearchTree() 
-    [tree.add(i) for i in [0,5,10,15,20,25,30,35,40,45,50]]
-    print(tree.in_order())
-    print(tree.pre_order())
+            def move(root, max_val = 0):
+                if not root:
+                    return
+                if root.value > max_val:
+                    max_val = root.value
 
-    print(tree.post_order())
+                left = move(root.left, max_val)
+                right = move(root.right, max_val)
+
+                if left and left > max_val:
+                    max_val = left
+
+                if right and right> max_val:
+                    max_val = right
+
+
+                return max_val
+
+            return move(self.root)
+
+
+
+
+if __name__=='__main__':  
+           pass
+
+    # bt = BinarySearchTree() 
+    # [bt.add(i) for i in [0,5,10,15,20,25,30,35,40,45,50]]
+    # print(bt.in_order())
+    # print(bt.pre_order())
+
+    # print(bt.post_order())
+
+    # bt = BinarySearchTree()
+    # [bt.add(i) for i in [30,100,4,5,775,889,4,3]]
+
+    # print (bt.tree_max_val())
+    
+    # print ("hello")
 
 
 
