@@ -60,9 +60,7 @@ Happy Coding!
  |:---------: |:--------------:|
  |[Array Reverse](array-reverse/ARRAYREVERSE.md)
  |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
- |[Singly linked list ](linked-list/LINKEDLIST.md)|
-|[stacks and queues ](stacks-and-queues/re)|
-|[Trees ](trees/README.md)|
+
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
