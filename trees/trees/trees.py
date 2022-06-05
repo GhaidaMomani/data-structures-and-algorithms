@@ -4,6 +4,26 @@ class Node:
         self.left = left
         self.right = right
 
+class Queue:
+    def __init__(self):
+        self.storage = deque()
+
+    def enqueue(self, value):
+        """Takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time Performance."""
+        self.storage.appendleft(value)
+
+    def dequeue(self):
+        """Takes no arguments, remove the node from the front of the queue, and returns the node's value."""
+        return self.storage.pop()
+
+    def peek(self):
+        """Takes no arguments and returns the value of the node located in the front of the queue, without removing it from the queue."""
+        return self.storage[-1]
+
+    def is_empty(self):
+        """Takes no arguments and returns a boolean indicating whether or not the queue is empty."""
+        return len(self.storage) == 0
+
 class BinaryTree:
     def __init__(self):
         self.root = None
@@ -106,6 +126,40 @@ class BinaryTree:
 
         return collection
 
+ 
+
+
+    def BT_max_val(self):
+        """
+        This instance method will traverse the tree and return the maximum value it has found.
+        in the binary tree
+        input: none
+        output: number 
+        """
+        if self.root == None:
+            raise ValueError("fill the tree and try again")
+
+        self.max = 0
+
+        def move(root):
+            if not root:
+                return
+            if root.value > self.max:
+                self.max = root.value
+
+            move(root.left)
+            move(root.right)
+
+        move(self.root)
+        return self.max
+
+
+
+
+
+
+
+
 
 class BinarySearchTree(BinaryTree):
     def add(self, value):
@@ -163,7 +217,7 @@ class BinarySearchTree(BinaryTree):
 
 
 
-    def tree_max_val(self):
+    def BST_max_val(self):
             if not self.root:
                 return "add some nodes to the tree :) "
 
@@ -188,27 +242,47 @@ class BinarySearchTree(BinaryTree):
             return move(self.root)
 
 
+#####################################################################################3
+# CC 17
+    def breadth_first(self, tree):
+        """Return values of breadth first search."""
+        if self.root is None:
+            return
+        else:
+            print(self.head),
+            breadth_queue = Queue()
+            breadth_queue(self.root)
+        while breadth_queue is not None:
+            current = breadth_queue.dequeue()
+            if current.left:
+                breadth_queue.queue.enqueue(current.left)
+            if current.right:
+                breadth_queue.queue.enqueue(current.right)
+            print(current),
+        return
+
 
 
 if __name__=='__main__':  
-           pass
+          
 
-    # bt = BinarySearchTree() 
-    # [bt.add(i) for i in [0,5,10,15,20,25,30,35,40,45,50]]
+    #  bt = BinarySearchTree() 
+    #  [bt.add(i) for i in [0,5,10,15,20,25,30,35,40,45,50]]
     # print(bt.in_order())
     # print(bt.pre_order())
 
     # print(bt.post_order())
 
-    # bt = BinarySearchTree()
-    # [bt.add(i) for i in [30,100,4,5,775,889,4,3]]
+    # bt2 = BinarySearchTree()
+    # [bt2.add(i) for i in [30,100,4,5,775,889,4,3]]
 
-    # print (bt.tree_max_val())
-    
-    # print ("hello")
-
-
-
+   
+    bt= BinaryTree()
+    n1= Node(2)
+    n3= Node(3)
+    n2= Node(50)
+    print("hello")
+    print(bt.BT_max_val())
 
 
 

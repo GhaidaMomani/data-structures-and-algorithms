@@ -1,4 +1,4 @@
-
+import pytest
 from trees.trees import (
     Node,
     BinaryTree,
@@ -76,14 +76,11 @@ def test_BST_contains_False():
     assert actual == expected
 
 
-
-
-
 def test_BST_find_max():
     bt = BinarySearchTree()
     [bt.add(i) for i in [10,20,30,40,50]]
 
-    actual = bt.tree_max_val()
+    actual = bt.BST_max_val()
     expected =50
     assert actual == expected 
     
@@ -93,6 +90,37 @@ def test_BST_find_max_empty():
     bt = BinarySearchTree()
    # [bt.add(i) for i in [10,20,30,40,50]]
 
-    actual = bt.tree_max_val()
+    actual = bt.BST_max_val()
     expected = "add some nodes to the tree :) "
     assert actual == expected 
+
+#############################################################3
+
+def test_find_max_value(binay_tree):
+        assert binay_tree.BT_max_val() == 300
+
+def test_find_max_value_on_empty_tree():
+    with pytest.raises(Exception):
+        BinaryTree().BT_max_val()
+
+
+@pytest.fixture
+def binay_tree():
+    node1 = Node(100)
+    node2 = Node(100)
+    node3 = Node(100)
+    node4 = Node(100)
+    node5 = Node(100)
+    node6 = Node(300)
+    node7 = Node(200)
+    
+    node1.left = node2
+    node1.right = node3
+    node2.left = node4
+    node2.right = node5
+    node3.left = node6
+    node5.right= node7
+        
+    tree = BinaryTree() 
+    tree.root = node1
+    return tree
