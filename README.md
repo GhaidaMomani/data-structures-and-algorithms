@@ -60,7 +60,22 @@ Happy Coding!
  |:---------: |:--------------:|
  |[Array Reverse](array-reverse/ARRAYREVERSE.md)
  |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
+<<<<<<< HEAD
+ |[Singly linked list ](linked-list/LINKEDLIST.md)|
+ |[stacks and queues ](stacks-and-queues/re)|
+ |[Trees ](trees/README.md)|
+ |[Trees  max ](trees/tree-breadth-first/tree_breadth_first.md)|
+ |[Trees BF ](trees/trees-max/trees_max.md)|
+ |[Trees Fizz-Buzz ](trees/trees-max/trees_max.md)|
+ |[Algorithms ](Algorithms/Algo_README.md)|
+ |[HashTable ](DataStructures/Hashtable/README.md)|
+ |[HashMap](DataStructures/Hashtable/Repeated_word.md)|
+ |[Quick Sort ](sorting/quick/README.md)|
+ |[Trees Intersections](trees/tree-intersection/README.md)|
+ |[Hashmap lef join](DataStructures/hashmap-left-join/README.md)|
+=======
 
+>>>>>>> 081e981028d97ac57e54383b961125e0bbc985bf
 
 <hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>

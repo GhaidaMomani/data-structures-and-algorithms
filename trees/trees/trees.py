@@ -128,6 +128,33 @@ class BinaryTree:
 
  
 
+    def add(self, value):
+       
+        new_node = Node(value)
+        breadth = Queue()
+        breadth.enqueue(self.root)
+
+        if not self.root:
+            self.root = new_node
+            return
+
+        while not breadth.is_empty():
+            front = breadth.dequeue()
+
+            if not front.left:
+                front.left = new_node
+                return
+            elif not front.right:
+                front.right = new_node
+                return
+
+            if front.left:
+                breadth.enqueue(front.left)
+
+            if front.right:
+                breadth.enqueue(front.right)
+##########################################################################
+# Code Challenge 16
 
     def BT_max_val(self):
         """
@@ -154,7 +181,24 @@ class BinaryTree:
         return self.max
 
 
-
+#####################################################################################3
+# CC 17
+    def breadth_first(self, tree):
+        """Return values of breadth first search."""
+        if self.root is None:
+            return
+        else:
+            print(self.head),
+            breadth_queue = Queue()
+            breadth_queue(self.root)
+        while breadth_queue is not None:
+            current = breadth_queue.dequeue()
+            if current.left:
+                breadth_queue.queue.enqueue(current.left)
+            if current.right:
+                breadth_queue.queue.enqueue(current.right)
+            print(current),
+        return
 
 
 
@@ -177,7 +221,7 @@ class BinarySearchTree(BinaryTree):
             self.root = node
             return
 
-        def walk(root, new_node):
+        def move(root, new_node):
 
             if not root:
                 return
@@ -188,16 +232,16 @@ class BinarySearchTree(BinaryTree):
                 if not root.left:
                     root.left = new_node
                 else:
-                    walk(root.left, new_node)
+                    move(root.left, new_node)
 
            
             else:
                 if not root.right:
                     root.right = new_node
                 else:
-                    walk(root.right, new_node)
+                    move(root.right, new_node)
 
-        walk(self.root, node)
+        move(self.root, node)
 
 
     def contains(self, value):
@@ -211,55 +255,30 @@ class BinarySearchTree(BinaryTree):
             return False
 
 
-##########################################################################
-# Code Challenge 16
+    # def BST_max_val(self):
+    #         if not self.root:
+    #             return "add some nodes to the tree :) "
+
+    #         def move(root, max_val = 0):
+    #             if not root:
+    #                 return
+    #             if root.value > max_val:
+    #                 max_val = root.value
+
+    #             left = move(root.left, max_val)
+    #             right = move(root.right, max_val)
+
+    #             if left and left > max_val:
+    #                 max_val = left
+
+    #             if right and right> max_val:
+    #                 max_val = right
 
 
+    #             return max_val
 
+    #         return move(self.root)
 
-    def BST_max_val(self):
-            if not self.root:
-                return "add some nodes to the tree :) "
-
-            def move(root, max_val = 0):
-                if not root:
-                    return
-                if root.value > max_val:
-                    max_val = root.value
-
-                left = move(root.left, max_val)
-                right = move(root.right, max_val)
-
-                if left and left > max_val:
-                    max_val = left
-
-                if right and right> max_val:
-                    max_val = right
-
-
-                return max_val
-
-            return move(self.root)
-
-
-#####################################################################################3
-# CC 17
-    def breadth_first(self, tree):
-        """Return values of breadth first search."""
-        if self.root is None:
-            return
-        else:
-            print(self.head),
-            breadth_queue = Queue()
-            breadth_queue(self.root)
-        while breadth_queue is not None:
-            current = breadth_queue.dequeue()
-            if current.left:
-                breadth_queue.queue.enqueue(current.left)
-            if current.right:
-                breadth_queue.queue.enqueue(current.right)
-            print(current),
-        return
 
 
 
