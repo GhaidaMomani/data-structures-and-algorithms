@@ -1,6 +1,7 @@
 # Challenge Summary
 
 Find the maximum value stored in the tree. with assumption  that the values stored in the Binary Tree will be numeric.
+# [Pull Request] (https://github.com/GhaidaMomani/data-structures-and-algorithms/pull/26)
 
 ## Whiteboard Process
 
