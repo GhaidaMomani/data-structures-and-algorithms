@@ -62,9 +62,9 @@ Happy Coding!
  |[Array Insert Shift](array-insert-shift/array-insert-shift.md)| 
  |[linked lists ](linked-list/LINKEDLIST.md)| Data Structure 1  | CC 9,8,7,6
  |[Stack & Queues ](stacks-and-queues/STACKS%26QUEUES.md)| Data Structure 2 | CC 10
-
+ |[Trees](bt-bst/trees/README.md)| 
 <hr/>
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
    
 
